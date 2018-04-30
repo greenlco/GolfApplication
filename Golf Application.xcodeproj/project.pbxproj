@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF8AE035208F9F2900BAB3F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8AE034208F9F2900BAB3F2 /* AppDelegate.swift */; };
+		FF8AE037208F9F2900BAB3F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8AE036208F9F2900BAB3F2 /* ViewController.swift */; };
+		FF8AE03A208F9F2900BAB3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8AE038208F9F2900BAB3F2 /* Main.storyboard */; };
+		FF8AE03C208F9F2A00BAB3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8AE03B208F9F2A00BAB3F2 /* Assets.xcassets */; };
+		FF8AE03F208F9F2A00BAB3F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8AE03D208F9F2A00BAB3F2 /* LaunchScreen.storyboard */; };
+		FF8AE047208F9F6800BAB3F2 /* GolfCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8AE046208F9F6800BAB3F2 /* GolfCourse.swift */; };
+		FF8AE049208FA4C700BAB3F2 /* CoursesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8AE048208FA4C700BAB3F2 /* CoursesDetailViewController.swift */; };
+		FF8AE04B208FAE7A00BAB3F2 /* CourseDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8AE04A208FAE7A00BAB3F2 /* CourseDataViewController.swift */; };
+		FF8AE04D208FBE2900BAB3F2 /* NameLocationInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8AE04C208FBE2900BAB3F2 /* NameLocationInputViewController.swift */; };
+		FFDDD24220927594003FAD3E /* HoleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDDD24120927594003FAD3E /* HoleListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF8AE031208F9F2900BAB3F2 /* Golf Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golf Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8AE034208F9F2900BAB3F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF8AE036208F9F2900BAB3F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF8AE039208F9F2900BAB3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF8AE03B208F9F2A00BAB3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8AE03E208F9F2A00BAB3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF8AE040208F9F2A00BAB3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8AE046208F9F6800BAB3F2 /* GolfCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCourse.swift; sourceTree = "<group>"; };
+		FF8AE048208FA4C700BAB3F2 /* CoursesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesDetailViewController.swift; sourceTree = "<group>"; };
+		FF8AE04A208FAE7A00BAB3F2 /* CourseDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDataViewController.swift; sourceTree = "<group>"; };
+		FF8AE04C208FBE2900BAB3F2 /* NameLocationInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameLocationInputViewController.swift; sourceTree = "<group>"; };
+		FFDDD24120927594003FAD3E /* HoleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8AE02E208F9F2900BAB3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8AE028208F9F2900BAB3F2 = {
+			isa = PBXGroup;
+			children = (
+				FF8AE033208F9F2900BAB3F2 /* Golf Application */,
+				FF8AE032208F9F2900BAB3F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8AE032208F9F2900BAB3F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8AE031208F9F2900BAB3F2 /* Golf Application.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8AE033208F9F2900BAB3F2 /* Golf Application */ = {
+			isa = PBXGroup;
+			children = (
+				FF8AE046208F9F6800BAB3F2 /* GolfCourse.swift */,
+				FF8AE034208F9F2900BAB3F2 /* AppDelegate.swift */,
+				FF8AE036208F9F2900BAB3F2 /* ViewController.swift */,
+				FF8AE04C208FBE2900BAB3F2 /* NameLocationInputViewController.swift */,
+				FF8AE048208FA4C700BAB3F2 /* CoursesDetailViewController.swift */,
+				FF8AE04A208FAE7A00BAB3F2 /* CourseDataViewController.swift */,
+				FFDDD24120927594003FAD3E /* HoleListViewController.swift */,
+				FF8AE038208F9F2900BAB3F2 /* Main.storyboard */,
+				FF8AE03B208F9F2A00BAB3F2 /* Assets.xcassets */,
+				FF8AE03D208F9F2A00BAB3F2 /* LaunchScreen.storyboard */,
+				FF8AE040208F9F2A00BAB3F2 /* Info.plist */,
+			);
+			path = "Golf Application";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8AE030208F9F2900BAB3F2 /* Golf Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8AE043208F9F2A00BAB3F2 /* Build configuration list for PBXNativeTarget "Golf Application" */;
+			buildPhases = (
+				FF8AE02D208F9F2900BAB3F2 /* Sources */,
+				FF8AE02E208F9F2900BAB3F2 /* Frameworks */,
+				FF8AE02F208F9F2900BAB3F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golf Application";
+			productName = "Golf Application";
+			productReference = FF8AE031208F9F2900BAB3F2 /* Golf Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8AE029208F9F2900BAB3F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Connor Greenleaf";
+				TargetAttributes = {
+					FF8AE030208F9F2900BAB3F2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = FF8AE02C208F9F2900BAB3F2 /* Build configuration list for PBXProject "Golf Application" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8AE028208F9F2900BAB3F2;
+			productRefGroup = FF8AE032208F9F2900BAB3F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8AE030208F9F2900BAB3F2 /* Golf Application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8AE02F208F9F2900BAB3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8AE03F208F9F2A00BAB3F2 /* LaunchScreen.storyboard in Resources */,
+				FF8AE03C208F9F2A00BAB3F2 /* Assets.xcassets in Resources */,
+				FF8AE03A208F9F2900BAB3F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8AE02D208F9F2900BAB3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8AE047208F9F6800BAB3F2 /* GolfCourse.swift in Sources */,
+				FF8AE037208F9F2900BAB3F2 /* ViewController.swift in Sources */,
+				FFDDD24220927594003FAD3E /* HoleListViewController.swift in Sources */,
+				FF8AE04B208FAE7A00BAB3F2 /* CourseDataViewController.swift in Sources */,
+				FF8AE049208FA4C700BAB3F2 /* CoursesDetailViewController.swift in Sources */,
+				FF8AE035208F9F2900BAB3F2 /* AppDelegate.swift in Sources */,
+				FF8AE04D208FBE2900BAB3F2 /* NameLocationInputViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF8AE038208F9F2900BAB3F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8AE039208F9F2900BAB3F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF8AE03D208F9F2A00BAB3F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8AE03E208F9F2A00BAB3F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8AE041208F9F2A00BAB3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF8AE042208F9F2A00BAB3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8AE044208F9F2A00BAB3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7694ENK4B;
+				INFOPLIST_FILE = "Golf Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CGreenleaf.Golf-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF8AE045208F9F2A00BAB3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7694ENK4B;
+				INFOPLIST_FILE = "Golf Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CGreenleaf.Golf-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8AE02C208F9F2900BAB3F2 /* Build configuration list for PBXProject "Golf Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8AE041208F9F2A00BAB3F2 /* Debug */,
+				FF8AE042208F9F2A00BAB3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8AE043208F9F2A00BAB3F2 /* Build configuration list for PBXNativeTarget "Golf Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8AE044208F9F2A00BAB3F2 /* Debug */,
+				FF8AE045208F9F2A00BAB3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8AE029208F9F2900BAB3F2 /* Project object */;
+}
